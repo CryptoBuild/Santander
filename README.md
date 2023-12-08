@@ -1,10 +1,6 @@
+Reguirements
 
-
-Santander - Developer Coding Test
-
-
-**Requirements** 
-
+		Santander - Developer Coding Test
 		Using ASP.NET Core, implement a RESTful API to retrieve the details of the best n stories from the Hacker News API, as determined by their score, where n is
 		specified by the caller to the API.
 		The Hacker News API is documented here: https://github.com/HackerNews/API .
@@ -28,24 +24,13 @@ Santander - Developer Coding Test
 		]
 		In addition to the above, your API should be able to efficiently service large numbers of requests without risking overloading of the Hacker News API.
 
-		You should share a public repository with us, that should include a README.md file which describes how to run the application, any assumptions you have made, and
+  		You should share a public repository with us, that should include a README.md file which describes how to run the application, any assumptions you have made, and
 		any enhancements or changes you would make, given the time
 
-** How to run the application ** 
-		
+Solution details
+		Load the main solution into Visual Studio 2022.
+  		Running the solution with IIS just launch the application.
 
 
-** Public Repository Details ** 
 
-		TODO : 
-
-** Assumptions ** 
-		Server component with caching service to be impelemented accross multiple sessions using an appropriate technology. Off the shelf products such as : could be used. 
-
-		TODO : Consider other items
-
-** Enhancements given more time ** 
-		Test Driven approach could be implemented to mock the calls return items in the expect formats and errors are handled in the correct way. 
-
-		ETC ETC ETC 
-
+# Santander
