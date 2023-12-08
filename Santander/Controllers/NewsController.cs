@@ -37,7 +37,7 @@ namespace Santander
             {
                 _NewsViewModel = new NewsViewModel();
             }
-            return _NewsViewModel.NewsItemList.GetRange(0, n).ToArray();
+            return _NewsViewModel.NewsItemList.GetRange(0, Math.Min(n, _NewsViewModel.NewsItemList.Count() )).ToArray();
         }
 
 
