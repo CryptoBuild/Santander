@@ -43,12 +43,13 @@ Santander - Developer Coding Test
 		https://github.com/CryptoBuild/Santander
 
 
-** Assumptions ** 
+** Assumptions **
+
 		Assumptions are this is a POC concept only and does not take into account any specific deployment or security concerns
 		
 
+** Enhancements given more time **
 
-** Enhancements given more time ** 
 		Test Driven approach could be implemented to mock the calls return items in the expect formats and errors are handled in the correct way. 
 		Split into multiple project to allow for session management and DB components to be stand alone
 		Use a proper CACHE mecanism instead of a single session based mechanism used here
