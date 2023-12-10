@@ -32,20 +32,25 @@ Santander - Developer Coding Test
 		any enhancements or changes you would make, given the time
 
 ** How to run the application ** 
-		
 
+		Pull the latest code into Visual Studio 2022.
+		Run the project. 
+		See Readme.Docx for more details of project running. 
 
 ** Public Repository Details ** 
 
-		TODO : 
+		Code pushed to the following location.
+		https://github.com/CryptoBuild/Santander
+
 
 ** Assumptions ** 
-		Server component with caching service to be impelemented accross multiple sessions using an appropriate technology. Off the shelf products such as : could be used. 
+		Assumptions are this is a POC concept only and does not take into account any specific deployment or security concerns
+		
 
-		TODO : Consider other items
 
 ** Enhancements given more time ** 
 		Test Driven approach could be implemented to mock the calls return items in the expect formats and errors are handled in the correct way. 
+		Split into multiple project to allow for session management and DB components to be stand alone
+		Use a proper CACHE mecanism instead of a single session based mechanism used here
 
-		ETC ETC ETC 
 
